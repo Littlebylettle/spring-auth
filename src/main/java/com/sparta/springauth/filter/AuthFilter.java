@@ -14,7 +14,7 @@ import org.springframework.util.StringUtils;
 import java.io.IOException;
 //인증 인가 관련된 필터
 @Slf4j(topic = "AuthFilter")
-@Component
+//@Component
 @Order(2)
 public class AuthFilter implements Filter {
 

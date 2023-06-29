@@ -27,7 +27,7 @@ dependencies {
     // MySQL --회원가입
     runtimeOnly 'com.mysql:mysql-connector-j'
 
-    // Security
+    // Security -->
     implementation 'org.springframework.boot:spring-boot-starter-security'
 // JWT
     compileOnly group: 'io.jsonwebtoken', name: 'jjwt-api', version: '0.11.5'
